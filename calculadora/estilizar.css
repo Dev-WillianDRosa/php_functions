@@ -1,0 +1,27 @@
+.calculadora{  /* classe do corpo da calculadora */
+    width: 300px;  
+    height: 400px;
+    background-color: #DCDCDC;
+    margin-left: 40%;
+    border: 1px solid black;
+
+}
+.nomecalculadora h1 { /* classe do nome da calculadora */
+    margin-left: 15px;
+    font-family: Arial, sans-serif;
+}
+.numero{ /* classe pras caixa de dialogo */
+    padding: 20px;
+    font-size: 20px;
+}
+
+button{ /* botão???????? */
+    width: 96%;
+    font-size: 20px;
+    
+}
+
+button:hover{ /* passa o mouse e tem corzinha kkkkkk */
+    cursor: pointer;
+    background-color: brown;
+}
