@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 </head>
 <body>
     <form action="" method="POST">
-        <label for="numero">Digite um Numero:
+        <label for="numero">Digite um numero de dois digitos:
         <input type="text" name="numero" id="numero" autofocus step="any" required>
         </label>
 

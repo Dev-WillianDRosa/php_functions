@@ -10,9 +10,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
     }
     $resultado = verifica($numero);
     if ($resultado == 1) {
-        echo $numero . ' é Par';
+        echo 'O numero ' . $numero . ' é Par';
     } else {
-        echo $numero . ' é impar';
+        echo 'O numero ' . $numero . ' é impar';
     }
 }
 
@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 </head>
 
 <body>
-    <h2>será impar ou par?</h2>
+    <h2>Verificador de Par ou Impar</h2>
     <form action="" method="POST">
         <label for="numero">Digite um número inteiro:
             <input type="text" id="numero" name="numero" required>

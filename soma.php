@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     function Soma($num1, $num2)
     {
-        return $num1 + $num2;
+        return $num1 . $num2;
     }
     echo 'O valor da Soma é ' . Soma($num1, $num2) . '<br> <br>';
 }

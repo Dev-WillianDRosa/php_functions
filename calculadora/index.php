@@ -58,7 +58,7 @@
                             }
                             break;
                     }
-                    echo "resultado é de " . $resultado; // mesmo resultado do o que por em cada caso, pois está dentro do if 
+                    echo "resultado é de " . number_format($resultado, 2); // mesmo resultado do o que por em cada caso, pois está dentro do if 
                 }
 
                 ?>

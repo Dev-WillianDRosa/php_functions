@@ -50,7 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <h2>Lançamento de Moeda</h2>
     <form action="" method="POST">
         <label for="numerolancamentos">Quantos lançamentos deseja realizar?
-            <input type="number" id="numerolancamentos" name="numerolancamentos" required min="1">
+            <input type="text" id="numerolancamentos" name="numerolancamentos" required min="1">
         </label>
         <button type="submit">Lançar Moeda</button>
     </form>
